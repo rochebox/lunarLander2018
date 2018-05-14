@@ -1,0 +1,112 @@
+/* css for lander page */
+
+/* fonts to use...
+font-family: 'Freckle Face', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Cherry Swash', cursive;
+*/
+
+/* font-family: 'Passion One', cursive;
+font-family: 'Sniglet', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Wendy One', sans-serif;
+*/
+
+/* font-family: 'Gamja Flower', cursive; */
+
+body{
+	background-image: url('../images/lego.jpg');
+	background-size: cover;
+	
+}
+
+h1 {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 40pt;
+	color: white;
+	padding: 5px;
+	margin-left: 2%;
+	-webkit-text-stroke: 2px #7CFC00;
+}
+
+h2 {
+	
+	font-family: 'Gamja Flower', cursive;
+	/* color: #dfbcf2; */
+	color: #7CFC00;
+	font-size: 20pt;
+	
+	padding-left: 7%;
+	
+}
+
+
+
+
+#wholeGameBox {
+	width: 95%;
+	margin-right:auto;
+	margin-left:auto;
+	border: 2px solid blue;
+	height: 700px;
+}
+
+#menuBarSidePanel {
+	float:left;
+	width: 31%;
+	border: 2px solid red;
+	height: 650px;
+	margin:2px;
+}
+
+
+#gameWindow{
+	float: left;
+	width: 66%;
+	margin:2px;
+	background-color: black;
+	border: 3px solid yellow;
+	height: 650px; 
+
+	
+}
+
+#menuControls {
+	width: 90%;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+#moon {
+	padding-top: 40%;
+	width: 100%;
+	vertical-align: bottom;
+
+}
+
+.menuButton{
+	background-image: url('../images/button.png');
+	background-size: cover;
+	width: 75%;
+	margin-right:auto;
+	margin-left: auto;
+	height: 58%;
+	padding: 4%;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	margin-top: 12%;
+	text-align: center;
+	
+
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20pt;
+	color: white;
+	-webkit-text-stroke: 2px #7CFC00;
+
+}
+
+.menuButton:hover {
+	opacity: 0.7;
+}
+
