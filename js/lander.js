@@ -10,13 +10,18 @@ var gameWidth = Math.round(gameRect.right - gameRect.left);
 //alert("hi, the gameHeight = " + gameHeight);
 //alert("hi, the gameWidth = " + gameWidth);
 
+
+// do set up of all of the images
 var moonImage = document.getElementById("moon");
-/*
 moonImage.style.zIndex = "0";
-moonImage.style.position = "absolute";
-moonImage.style.bottom = "0";
-moonImage.style.left = "100";
-moonImage.style.width = "70%";
-*/
+
+/
+
+
+
+
+
+
+
 
 

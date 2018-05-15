@@ -79,7 +79,7 @@ h2 {
 }
 
 #moon {
-	padding-top: 40%;
+	padding-top: 58%;
 	width: 100%;
 	vertical-align: bottom;
 
@@ -87,15 +87,16 @@ h2 {
 
 .menuButton{
 	background-image: url('../images/button.png');
-	background-size: cover;
-	width: 75%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 68%;
 	margin-right:auto;
 	margin-left: auto;
-	height: 58%;
-	padding: 4%;
+	height: 61%;
+	padding: 5%;
 	padding-top: 6%;
-	padding-bottom: 6%;
-	margin-top: 12%;
+	padding-bottom: 7%;
+	margin-top: 8%;
 	text-align: center;
 	
 
